@@ -1,0 +1,38 @@
+title: DevMargins
+description: Skeptical, operator-first insights on AI and software engineering
+author: DevMargins
+url: https://devmargins.github.io
+baseurl: ""
+
+# Theme settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Customization
+show_excerpts: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalink structure
+permalink: /:title/
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
